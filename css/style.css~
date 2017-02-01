@@ -1,0 +1,156 @@
+#page-wrap {
+     width: 80%;
+     margin: 0 auto;
+}
+
+body{   
+
+background-color:white;
+
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+color: #313131;
+}
+
+.content{
+background-color:white;
+color: #313131;   
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
+    padding: 10px;
+}
+
+header{
+background-color:#EB65A0;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    position: relative;
+
+}
+
+ ul {
+    list-style-type: none;
+    overflow: hidden;
+background-color:#73C5E1;
+     margin-top: 0;
+    width: 100%;
+     
+}
+
+h2{
+    color:saddlebrown;
+}
+hr{
+    color:darksalmon;
+}
+
+h3{
+    color:firebrick;
+    
+}
+h4{
+    color: #EB65A0;
+}
+
+
+p{
+    color:saddlebrown;
+    
+}
+li {
+    float: left;  
+
+}
+
+
+.links a{
+    display: inline-block;
+    color:darksalmon;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a{
+    display: inline-block;
+    color:#3D3C3A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:#FFD452;
+}
+
+.active {
+    color: #FFD452;
+}
+
+
+.lg{
+    float: right;
+    color: white;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.footer{
+height: 4em;
+    background-color:#3C3C3C;
+    color:white; 	 
+	     clear:both;
+    text-align:center;	 
+	width:100%;
+}
+
+
+
+table{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    ul.nav li.right, 
+    ul.nav li {float: none;}
+    .abtt table img{width: 100%;height:100%}
+}
+@media screen and (max-width: 400px){
+
+    .abtt table img{width: 100%;height:100%}
+}
+@media screen and (max-width: 200px){
+
+    .abtt table img{width: 100%;height:100%}
+}
+
+@media screen and (max-width: 800px){
+
+    .abtt table img{width: 100%;height:100%}
+}
+@media screen and (max-width: 1000px){
+
+    .abtt table img{width: 100%;height:100%}
+}
